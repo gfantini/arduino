@@ -17,3 +17,9 @@ Un sensore combinato di BOSCH che contiene barometro + termometro
 Specifiche tecniche (e data-sheet): https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/
 Si può leggere tramite interfaccia I2C, il modo più semplice è usare una libreria (da installare!)
 La libreria usata nell'esempio è Adafruit_BMP280, ma esiste anche BMx280I2C (ad esempio).
+
+## AnalogSensor
+
+Un esempio di lettura di sensore analogico.
+Il sensore di CO2 è un sensore analogico. https://store.arduino.cc/products/gravity-analog-co2-gas-sensor-mg-811-sensor
+Anche il sensore di rumore (microfono) è analogico. https://www.amazon.it/Youmile-rilevamento-sensore-microfono-sensibilit%C3%A0/dp/B07Q1BYDS7/ref=sr_1_4_sspa
