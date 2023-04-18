@@ -34,7 +34,7 @@ void loop()
         Serial.print(",");
         Serial.println(concentration);
         // reset occupancy to 0
-        lowpulseoccupancy = 0;
+        lowpulseoccupancy_us = 0;
         // reset starttime to current time
         starttime = millis();
     }
