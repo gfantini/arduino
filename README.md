@@ -24,3 +24,7 @@ Un esempio di lettura di sensore analogico.
 Il sensore di CO2 è un sensore analogico. https://store.arduino.cc/products/gravity-analog-co2-gas-sensor-mg-811-sensor
 Il sensore di rumore (microfono) è digitale, il pin di output produce HIGH se il rumore è superiore a una certa soglia, LOW altrimenti. La soglia è settabile ruotando la vite a stella presente sul sensore.
 https://www.amazon.it/Youmile-rilevamento-sensore-microfono-sensibilit%C3%A0/dp/B07Q1BYDS7/ref=sr_1_4_sspa
+
+## Parking
+
+Un esempio di utilizzo combinato sensore-attuatore, per costruire un sensore di parcheggio. Sensore ultrasonico HC-SR04, attuatore LED.
