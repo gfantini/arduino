@@ -59,7 +59,7 @@ void setup() {
 void loop() {
   double distCm = getDistanceCm();
   Serial.println( distCm );
-  operateTrafficLight( distCm, 15.0, 20.0 );
+  operateTrafficLight( distCm, 15.0, 50.0 );
   delay(50);
 
 }
